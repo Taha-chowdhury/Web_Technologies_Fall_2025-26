@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+ 
+.login-container {
+    background-color: #777777; /* Medium-dark gray */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+ 
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+ 
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+label {
+    color: #eeeeee; /* Light gray text for labels */
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+ 
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff; /* White background */
+    font-size: 16px;
+}
+ 
+.account-link {
+    text-align: left;
+    color: #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+ 
+.signup-link {
+    color: #4a6bff; /* Blue color */
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.submit-button {
+    align-self: flex-end;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+}
+ 
+.submit-button:hover {
+    background-color: #f0f0f0;
+}
+has context menu
