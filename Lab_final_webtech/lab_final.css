@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+    background: #f2f2f2;
+    padding: 20px;
+}
+ 
+.container{
+    max-width: 450px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+label{
+    font-weight: bold;
+}
+ 
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+}
+ 
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+ 
+#statsPanel{
+    margin-top: 20px;
+    padding: 15px;
+    background: #aecdae;
+    display: none;
+    border-radius: 8px;
+}
+ 
+.btn{
+    background: #56799c;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
+.btn:hover{
+    background: #005fcc;
+}
